@@ -24,8 +24,8 @@ html {
   justify-content: center;
   align-items: center;
   margin-top:10px; /* Adjust margin as needed */
-  height:930px;
-  width:100%;
+  /* height:930px;
+  width:100%; */
 }
 .plans{
   font-size: 40px;
