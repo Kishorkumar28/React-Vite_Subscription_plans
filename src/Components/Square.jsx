@@ -13,7 +13,6 @@ export default function Square(props = {}) {
     >
       <h1 className="plans">{message}</h1>
       <h2 className="prices">{price}
-        <span className="price-line"></span>
       </h2>
     
       <h2>
