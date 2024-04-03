@@ -70,4 +70,6 @@ hr {
   height: 2px; /* Adjust the height/thickness of the line */
   background-color: black; /* Color of the line */
 }
-
+.disabled {
+  opacity: 0.5; /* Adjust the opacity value for disabled elements */
+}

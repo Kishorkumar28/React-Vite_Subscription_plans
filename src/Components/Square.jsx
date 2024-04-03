@@ -18,7 +18,7 @@ export default function Square(props = {}) {
       <h2>
       <ul>
         {items.map((element, index) => (
-          <li key={index}>
+          <li key={index} className={element.isAvailable ? "" : "disabled"}>
             {element.isAvailable ? "✅" : "❌"} {element.name}
           </li>
         ))}
