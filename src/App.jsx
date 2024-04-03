@@ -57,8 +57,8 @@ function App() {
       {data.map((element, index) => (
         <Square
           key={index}
-          width={300}
-          height={550}
+          width={400}
+          height={650}
           background={element.color}
           price={element.price}
           message={element.title}
